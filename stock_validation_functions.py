@@ -38,23 +38,23 @@ def validate_shirt(
             click_product()
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"
             )
             # checking the first stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"
             )
             # checking the second stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"
             )
             # checking the third stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"
             )
             # checking the fourth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"
             )
 
             # saving on database
@@ -112,23 +112,23 @@ def validate_tshirt(
             click_product()
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the second stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the third stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fourth stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fifth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
 
             # saving on database
@@ -186,31 +186,31 @@ def validate_pants(
             click_product()
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the second stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the third stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fourth stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fifth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the sixth stock slot
             slot6 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[6]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the seventh stock slot
             slot7 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[7]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
 
             # saving on database
@@ -266,31 +266,31 @@ def validate_short(
 
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the second stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the third stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fourth stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fifth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the sixth stock slot
             slot6 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[6]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the seventh stock slot
             slot7 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[7]/select-product-qnt/div")
+                "current xpath of the slot"            
 
             # saving on database
             create_table_bottom_parts(
@@ -347,23 +347,23 @@ def validate_polo(
 
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the second stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the thirth stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fourth stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fifth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
 
             # saving on database
@@ -423,23 +423,23 @@ def validate_henley(
 
             # checking the first stock slot
             slot1 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[1]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the second stock slot
             slot2 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[2]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the third stock slot
             slot3 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[3]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fourth stock slot
             slot4 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[4]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
             # checking the fifth stock slot
             slot5 = validate_stock(
-                "/html/body/app-root/ion-app/ion-router-outlet/app-store/ion-router-outlet/app-catalog-product-view/ion-content/app-content-wrapper/div/div/div/div[2]/div[2]/div[3]/div/cart-product-grade/div[2]/table/tbody/tr/td[5]/select-product-qnt/div"
+                "current xpath of the slot"            
             )
 
             # saving on database
